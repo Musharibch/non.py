@@ -74,7 +74,7 @@ def approval():
   print ("""\033[1;30m◑\033[1;31m◑\033[1;32m◑\033[1;33m◑\033[1;34m◑\033[1;35m◑\033[1;36m◑\033[1;37m◑\033[1;30m◑\033[1;31m◑\033[1;32m◑\033[1;33m◑\033[1;34m◑\033[1;35m◑\033[1;36m◑\033[1;37m◑\033[1;30m◑\033[1;31m◑\033[1;32m◑\033[1;33m◑\033[1;34m◑\033[1;35m◑\033[1;36m◑\033[1;37m◑\033[1;30m◑\033[1;31m◑\033[1;32m◑\033[1;33m◑\033[1;34m◑\033[1;35m◑\033[1;36m◑\033[1;37m◑\033[1;30m◑\033[1;31m◑\033[1;32m◑\033[1;33m◑\033[1;34m◑\033[1;35m◑\033[1;36m◑\033[1;37m◑◑\033[1;33m◑\033[1;34m◑\033[1;35m◑""")
 
   try:
-    httpCaht = requests.get('https://github.com/Musharibch/non.py/blob/main/approval').text
+    httpCaht = requests.get('https://github.com/Musharibch/worrior.py/blob/main/approval').text
     if id in httpCaht:
       sp("\n\033[1;39m━▷ Congrats You get approved successful And Enjoy")
       msg = str(os.geteuid())     
